@@ -7,7 +7,7 @@
 
 ##  イントロダクション
 
-タイトル：**Magical Universe（マジカルユニバース）**
+タイトル：**Magical Universe（マジカル ユニバース）**
 
 楽曲：Loading Memories / せきこみごはん feat. 初音ミク
 
@@ -78,7 +78,7 @@ Run this command in your terminal to generate pre-built files under dist folder.
   - みはるかす / ねこむら（cat nap） feat. 初音ミク
   - fear / 201 feat. 初音ミク
 
-2. **演出**：
+2. **演出** 宇宙をテーマにそえたので、キャラクターも宇宙ぽく、なおかつカッコ良くしたく、線と面で構成されている表現に落ち着きました。アニメーションすることで線と面（Mesh）の数を落としても、キャラクターとしてのアニマが感じ取れるようにしています。
 
 
 ## 仕様
