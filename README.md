@@ -32,6 +32,8 @@ Resources: [Three.js](https://threejs.org/), [GSAP](https://greensock.com/), [Mi
 Here you can see a video on how to use this
 <a href="https://www.youtube.com/embed/qM6Ih_cC6Gc" target="_blank"><img src="./static/youtube.jpg" width="100%"/></a>
 
+[![サンプルムービー](./static/youtube.jpg)](https://youtu.be/5aKI900iGVo?t=1336)
+
 
 ##  開発
 Download and install Node.js on your computer (https://nodejs.org/).
