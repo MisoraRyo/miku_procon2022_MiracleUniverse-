@@ -121,7 +121,7 @@ Run this command in your terminal to generate pre-built files under dist folder.
 
 ## 動作要件
 
-PCでの閲覧を推奨しています。
+PCでの閲覧を推奨しています。（ChromeまたはFirefoxを推奨）
 
 場合によっては高負荷になることもございます（グラフィックボード有りが望ましいです）。うまく表示されなかったり、文字が出ない場合などは、リロードなどしていただけると回復することがあります。
 
