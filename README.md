@@ -9,7 +9,7 @@
 
 タイトル：**Miracle Universe =**
 
-（読み：ミラクル ユニバース） ＝ の先きの答えはみんなで導いていく思いを込めています。
+（読み：ミラクル ユニバース） ＝ の先きの答えはみんなで導いていく思いを込めて「＝」を付けています。
 
 楽曲：**Loading Memories / せきこみごはん feat. 初音ミク**
 
@@ -131,14 +131,3 @@ PCでの閲覧を推奨しています。（ChromeまたはFirefoxを推奨）
 ＊スマホでも閲覧可能
 
 ＊PCで閲覧の場合、Safariブラウザでは極端にFPSが下がる場合がございます。（Three.jsとMac_OSのバグで解決策がわかりませんでした）ChromeまたはFirefoxを推奨しています。
-
-
-Miracle Cube♪  Mi-Cube♪ (Miracle Cube)
-
-Mi-Cube♪ (Miracle Cube♪)
-
-universe
-
-Miracle Cube = （読み：ミラクル キューブ イコール）
-
-Miracle Universe =　（読み：ミラクルユニバース）＝ の先きの答えはみんなで導いていく思いを込めています。
