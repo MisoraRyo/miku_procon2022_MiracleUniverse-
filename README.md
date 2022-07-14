@@ -1,4 +1,4 @@
-# 初音ミク「マジカルミライ」10th Anniversaryプログラミング・コンテスト、エントリー作品「Miracle Universe =」
+# 初音ミク「マジカルミライ」10th Anniversaryプログラミング・コンテスト、エントリー作品「= Miracle Universe」
 <h4>This Music-App is programmed by Ryo Misora</h4>
 
 <p align="center">
@@ -7,9 +7,9 @@
 
 ##  イントロダクション
 
-タイトル：**Miracle Universe =**
+タイトル：**= Miracle Universe**
 
-（読み：ミラクル ユニバース） ＝ の先きの答えはユーザー自身で導いていく意味を込めて「＝（イコール）」を付けてたタイトルにしました。
+（読み：イコール ミラクル ユニバース）はユーザー自身でMiracleな宇宙へと導いていく意味を込めて「＝（イコール）」を付けてたタイトルにしました。
 
 楽曲：**Loading Memories / せきこみごはん feat. 初音ミク**
 
