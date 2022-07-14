@@ -1,4 +1,4 @@
-# 初音ミク「マジカルミライ」10th Anniversaryプログラミング・コンテスト、エントリー作品「Magical Universe」
+# 初音ミク「マジカルミライ」10th Anniversaryプログラミング・コンテスト、エントリー作品「Miracle Universe =」
 <h4>This Music-App is programmed by Ryo Misora</h4>
 
 <p align="center">
@@ -7,7 +7,7 @@
 
 ##  イントロダクション
 
-タイトル：**Magical Universe（マジカル ユニバース）**
+タイトル：**Miracle Universe = ：（読み：マジカル ユニバース）  ＝ の先きの答えはみんなで導いていく思いを込めています。**
 
 楽曲：**Loading Memories / せきこみごはん feat. 初音ミク**
 
@@ -20,6 +20,7 @@
 集め方は簡単で、白いcubeをクリックして、中央部分の八面体（最初にクリックした黄色のオブジェクト）をクリックするだけです。
 
 ぜひ、曲が終わるまでにオブジェの完成を目指して、ダイナミックな演出で楽曲をお楽しみください。
+
 
 Resources: [Three.js](https://threejs.org/), [GSAP](https://greensock.com/), [Mixamo](https://www.mixamo.com/), [TextAlive](https://textalive.jp/)
 
@@ -128,3 +129,14 @@ PCでの閲覧を推奨しています。（ChromeまたはFirefoxを推奨）
 ＊スマホでも閲覧可能
 
 ＊PCで閲覧の場合、Safariブラウザでは極端にFPSが下がる場合がございます。（Three.jsとMac_OSのバグで解決策がわかりませんでした）ChromeまたはFirefoxを推奨しています。
+
+
+Miracle Cube♪  Mi-Cube♪ (Miracle Cube)
+
+Mi-Cube♪ (Miracle Cube♪)
+
+universe
+
+Miracle Cube = （読み：ミラクル キューブ イコール）
+
+Miracle Universe =　（読み：ミラクルユニバース）＝ の先きの答えはみんなで導いていく思いを込めています。
