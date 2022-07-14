@@ -1,4 +1,4 @@
-# Magical Universe
+# 初音ミク「マジカルミライ」10th Anniversaryプログラミング・コンテスト、エントリー作品「Magical Universe」
 <h4>This Music-App is programmed by Ryo Misora</h4>
 
 <p align="center">
