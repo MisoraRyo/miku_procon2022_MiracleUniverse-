@@ -30,7 +30,7 @@ Resources: [Three.js](https://threejs.org/), [GSAP](https://greensock.com/), [Mi
 
 ##  Movie
 Here you can see a video on how to use this
-<a href="https://www.youtube.com/embed/qM6Ih_cC6Gc" target="_blank"><img src="./static/youtube.png" width="100%"/></a>
+<a href="https://www.youtube.com/embed/qM6Ih_cC6Gc" target="_blank"><img src="./static/youtube.jpg" width="100%"/></a>
 
 
 ##  開発
