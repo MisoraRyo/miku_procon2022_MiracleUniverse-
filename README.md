@@ -9,7 +9,7 @@
 
 タイトル：**Magical Universe（マジカル ユニバース）**
 
-楽曲：Loading Memories / せきこみごはん feat. 初音ミク
+楽曲：**Loading Memories / せきこみごはん feat. 初音ミク**
 
 楽曲と世界観をたのしむWEBアプリケーリョンを作りました。
 
