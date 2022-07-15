@@ -1315,29 +1315,22 @@ ClickBoxesGroup.name = "box";
 const BoxPositonBoxes = new Float32Array([
   42.4264,5.2293,42.4264,
   -42.4264,-8.3504,-42.4264,
-  
   70.4769, -25.6515, 25.6515,
   -73.8606, 14.3107, 13.0236,
   -25.6515,-15.5934,-70.4769,
-  
   90, 38.03564, 0,
   -90, -51.6219, 0,
   0, 57.8509, -90,
-  
   17.3648, 20.7912, 98.4801,
   -93.9693,34.2020,-34.202,
   64.2788,-10.4528,-76.6044,
-  
   103.9230, -43.0041, 60,
   -103.9230, 31.0583, 60,
   0, -37.0820, -120,
-  
   -70, 47.8828, 121.2436,
   70, -43.2624, -121.2436,
-  
   80, -49.4427, 138.5641,
   -138.5641, 59.9371, -80,
-  
   180, 61.5636, 0,
   -180, -46.5874, 0,
 ]);
@@ -1716,7 +1709,7 @@ function handleClick(event){
         MeshIndex -= clickCount * 20;//クリック分増加する 460(588) 
         MeshIndices = Math.max(MeshIndex, 0);
         MeshIndexBox = pickN(0,588,MeshIndices);
-        console.log("MeshIndex",MeshIndices);
+        //console.log("MeshIndex",MeshIndices);
         //console.log("MeshIndexBox",MeshIndexBox);
         //★メッシュの増加数
         clickCount=0;//初期化
