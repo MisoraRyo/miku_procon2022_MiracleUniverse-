@@ -1,5 +1,5 @@
 # 初音ミク「マジカルミライ」10th Anniversary プログラミング・コンテスト エントリー作品「Miracle Universe =」
-<h4>This Music-App is programmed by Ryo Misora</h4>
+<h4>This Web-Application is programmed by Ryo Misora</h4>
 
 <p align="center">
     <img src="./static/cover.jpg" width="100%"/>
