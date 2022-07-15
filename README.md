@@ -31,7 +31,7 @@ Resources: [Three.js](https://threejs.org/), [GSAP](https://greensock.com/), [Mi
 
 
 ##  Movie
-Click to play.
+Click to YouTube.
 [![DemoMovie](./static/youtube.jpg)](https://youtu.be/tXr0qvXgWIk)
 
 
