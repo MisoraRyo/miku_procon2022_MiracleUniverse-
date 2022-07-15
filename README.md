@@ -49,13 +49,13 @@ npm run dev
 ```
 
 ##  ビルド
-以下のコマンドで dist 以下にビルド済みファイルが生成されます。 サンプルコードのデモページ は レンタルサーバー で、このリポジトリの dist 以下のファイルが提供されています。
+以下のコマンドで dist 以下にビルド済みファイルが生成されます。 サンプルコードのデモページ は、このリポジトリの dist 以下のファイルが提供されています。
 
 ```
 npm run build
 ```
 
-Run this command in your terminal to generate pre-built files under dist folder.
+Run this command in your terminal to generate build files under dist folder.
 
 
 ##  ポイント
