@@ -1525,7 +1525,7 @@ const linePoint = new Float32Array( MAX_POINTS * 3 );
 //先頭に追加 八面体の初期値を追加する
 linepointset.unshift(15.0 * Math.sin(Math.PI*2));//Z
 linepointset.unshift(0.0);//Y
-linepointset.unshift(15 * Math.cos(Math.PI*2));//X
+linepointset.unshift(15.0 * Math.cos(Math.PI*2));//X
 linepointset.forEach((value, index) => {
   linePoint[index] = value;
 });
@@ -1657,9 +1657,12 @@ function handleClick(event){
           //ラインの初期化
           line_geometry.setDrawRange(0,0);
           linepointset=[];//初期化
-          linepointset.unshift(clickIntersects.position.z);
-          linepointset.unshift(clickIntersects.position.y);
-          linepointset.unshift(clickIntersects.position.x);
+          linepointset.unshift(15.0 * Math.sin(Math.PI*2));//Z
+          linepointset.unshift(0.0);//Y
+          linepointset.unshift(15.0 * Math.cos(Math.PI*2));//X
+          //linepointset.unshift(clickIntersects.position.z);
+          //linepointset.unshift(clickIntersects.position.y);
+          //linepointset.unshift(clickIntersects.position.x);
           
           if (player.isPlaying){ 
       
