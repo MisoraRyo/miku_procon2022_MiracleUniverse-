@@ -23,7 +23,7 @@
 ぜひ、曲が終わるまでにオブジェの完成（桜を咲かせること）を目指して、ダイナミックな演出で楽曲をお楽しみください。
 
 
-＊Miracle Universe =：（読み：ミラクル ユニバース）からイコールの先はユーザー自身で作り上げていく（桜を咲かせる）意味を込めて「＝（イコール）」を記号的に付けてたタイトルにしました。
+＊Miracle Universe =：（読み：ミラクル ユニバース）からイコールの先はユーザー自身で作り上げていく（桜を咲かせる）・答えを出す意味を込めて「＝（イコール）」を記号的に付けてたタイトルにしました。
 
 
 Resources: [Three.js](https://threejs.org/), [GSAP](https://greensock.com/), [Mixamo](https://www.mixamo.com/), [TextAlive](https://textalive.jp/)
