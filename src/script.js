@@ -11,7 +11,7 @@ import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js'
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
 import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass";
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
-//↓負荷軽減のため今回は未使用 9855行目あたりのコメントアウトで実行可能
+//↓負荷軽減のため今回は未使用 985行目あたりのコメントアウトで実行可能
 import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
 import { chromaticShader } from './chromatic-aberration.js';
 
