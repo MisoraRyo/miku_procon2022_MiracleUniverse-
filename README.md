@@ -124,7 +124,7 @@ Run this command in your terminal to generate build files under dist folder.
 曲が終わると、すべて初期化されます。
 
 
-## 動作要件
+## 動作環境
 
 PCでの閲覧を推奨しています。（ChromeまたはFirefoxを推奨）
 
