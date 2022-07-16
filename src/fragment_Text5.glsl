@@ -31,10 +31,7 @@ float randomSerie(float x, float freq, float t) {
 void main(){
   //
   vec4 disp = texture2D(udisplayment, ScrollvUv + vec2( sin(u_count) * 0.25 + 0.25, 0.0 ) );
-  //vec2 st = gl_FragCoord.xy/u_resolution.xy;
-  //ディゾルブ用の画像を読み込み黒に近い色から、抜けるていく
-  //vec4 out_disp = texture2D(u_outdisplayment, vUv);
-  //vec4 dissolve = texture2D( u_outdisplayment, ScrollvUv + vec2( sin(u_count) * 0.25 + 0.25, 0.0) ).rgba;
+
   //
   float alpha = disp.r * 0.2 + disp.g * 0.7 + disp.b * 0.1;
   
