@@ -1,0 +1,4 @@
+/**
+ * @author Takahiro INOUE <takahiro.inoue@aist.go.jp>
+ * @license Copyright (c) 2017-2019 AIST Songle Project
+ */
