@@ -132,4 +132,4 @@ PCでの閲覧を推奨しています。（ChromeまたはFirefoxを推奨）
 
 ＊スマホでも閲覧可能
 
-＊PCで閲覧の場合、Safariブラウザでは極端にFPSが下がる場合がございます。（Three.jsとMac_OSのバグで解決策がわかりませんでした）ChromeまたはFirefoxを推奨します。
+＊PCで閲覧の場合、Safariブラウザでは極端にFPSが下がる場合がございます。（Three.jsとMac_OSのバグで解決策がわかりませんでした）ChromeまたはFirefoxを推奨しています。
