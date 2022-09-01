@@ -34,13 +34,12 @@ void main(){
 
   vec4 viewPostion = viewMatrix * modelPostion;
 
-  //
+  // 18
   float PointSize = 8.0 * uPixelRation * ( 100.0 / length( cameraLength ) );
   float finalSize = mix(PointSize, 0.0, circularIn(linearstep(0.7, 1.0, c_stepB)));
   gl_PointSize = finalSize;
-  //gl_PointSize = 18.0;
 
   gl_Position = projectionMatrix * viewPostion;
-  //gl_Position = projectionMatrix * modelViewMatrix * vec4( position.x, position.y, position.z , 1.0 );
+
 	
 }

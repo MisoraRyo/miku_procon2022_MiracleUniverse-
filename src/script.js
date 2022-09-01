@@ -57,7 +57,7 @@ window.onload = function(){
 //初期化
 const player = new Player({
   app: { 
-    token: "A9hXgoHcANWKgvws",//Token
+    token: "A9hXgoHcANWKgvws",//Token　★取得したトークンを追加ください！！！
     parameters: [
     ]
    },
@@ -88,7 +88,7 @@ let voiceEndTime = 0;
 let MaxVocal = 0;
 let SongVocal = 0; //0~1の値
 
-//セグメントの初期アニメーション番号を保存する
+//セグメントの初期アニメーション番号を設定する（初期化）
 let SetAnimationNumber = [
   5,0,1,1,4,5
 ];
@@ -101,8 +101,6 @@ const initalElement = document.getElementById("initial-info");
 let SongBeat_diff = 1.0; //カメラ制御の移動時間(s)
 
 //texture生成の文書
-//const canvas = document.createElement('canvas');
-//const ctx = canvas.getContext('2d');
 let textures = createTexture({
   text: "", // 描画したいテキスト
   fontSize: 200, // フォントサイズ
@@ -710,14 +708,6 @@ player.addListener({
     //声量を100%で表示する
     positionbarElement.style.width = Math.floor( position ) / endTime * 100 + "%";
 
-    //バグ回避のための強制終了
-    /*
-    if(endTime < position){
-      console.log("強制終了");
-      player.requestStop();
-    }
-    */
-
   }// End onTimeUpdate
 
 });//END player.addListener
@@ -878,7 +868,7 @@ renderer.setPixelRatio(Math.min(PixelRation, 2.0)) //set pixel ratio
 renderer.setSize(window.innerWidth, window.innerHeight) // make it full screen
 //renderer.setClearColor(0xeeeeee); // 背景色
 //renderer.outputEncoding = THREE.sRGBEncoding // set color encoding
-//renderer.shadowMap.enabled = true; //
+//renderer.shadowMap.enabled = true;
 
 //Webgl_Lose
 document.getElementById("MyCanvas").addEventListener('webglcontextlost', function(e) {
@@ -985,7 +975,6 @@ effectComposer.addPass( bloomPass );
 //色収差エフェクト（★★★負荷軽減のため今回は保留する★★★）
 //const luminosityPass = new ShaderPass( chromaticShader );
 //effectComposer.addPass( luminosityPass );
-
 
 
 /////////////////////////////////////////////////////////////////////////
@@ -1114,6 +1103,7 @@ modelinit();
 /////////////////////////////////////////////////////////////////////////
 //// 文字表示用の平面Plane
 
+//////TextAlive側に移動///////
 /*
 const canvas = document.createElement('canvas');
 const ctx = canvas.getContext('2d');
@@ -1122,7 +1112,7 @@ let textures = createTexture({
   fontSize: 200, // フォントサイズ
 });
 */
-//////上に表示///////
+/////////////
 //=texture=は初期化されている
 const geometry = new THREE.PlaneGeometry(64, 37, 80, 45);//
 
@@ -1238,7 +1228,7 @@ scene.add(stagePartcleMesh);
 
 const flashgeometry = new THREE.BufferGeometry();
 //
-const flashPartcleSpeed = new Float32Array(384);//[5]216*648 [4]150*3 [2]54*3 162 [1]24 128*3 160*3
+const flashPartcleSpeed = new Float32Array(384);//128*3 160*3
 const flashPartcleRadius = new Float32Array(128);
 //速度を追加
 for(let i = 0; i<128; i++){
@@ -1392,9 +1382,6 @@ for (let i = 0; i < 1; i++) {
   Bmesh.position.x = 5 * Math.cos(Math.PI*2);
   Bmesh.position.y = 0;
   Bmesh.position.z = 5 * Math.sin(Math.PI*2) ;
-  //Bmesh.position.x = 15 * Math.sin(Math.PI*2);
-  //Bmesh.position.y = 0;
-  //Bmesh.position.z = 15 * Math.cos(Math.PI*2) ;
   // 
   Bmesh.scale.set( 1.3, 1.5, 1.3);
   Bmesh.name = `4`;
@@ -1532,7 +1519,7 @@ let newline = new THREE.Line(line_geometry,line_material);
 BoxGroup.add(newline);
 
 
-// マウスをクリックときのイベント
+// ==マウスをクリックときのイベント==
 function handleClick(event){
 
   if(clickFlg){
@@ -1819,7 +1806,7 @@ const OctahedronEffects = () =>{
 
 }
 
-//最初のクリック演出
+//演出 最初のクリック
 const OctahedronEffectsB = () =>{
   
   //humanの色変化
@@ -1855,6 +1842,8 @@ const OctahedronEffectsB = () =>{
 /////////////////////////////////////////////////////////////////////
 //　螺旋階段
 //
+// ４拍子固定＝＞3拍子にも対応するには場合分け必要
+
 const stageGroupBoxes_0 =[]
 const stageGroupBoxes_1 =[]
 const stageGroupBoxes_2 =[]

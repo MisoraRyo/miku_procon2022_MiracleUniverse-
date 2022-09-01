@@ -36,20 +36,6 @@ p{margin:.5em 0;}
 .is-active{color:#eee;opacity:.25}
 #nav-bar-wrap{display:block;position:relative;left:0;bottom:0;background-color:gray;width:100%;height:6px;z-index:10}
 #nav-bar{display:block;position:relative;left:0;bottom:0;background-color:#6be6ed;width:0;height:6px}
-/*.noise{pointer-events:none;position:fixed;top:0;width:100%;height:100vh;z-index:3}
-.noise::after{pointer-events:none;position:absolute;content:"";display:block;height:200%;left:-100%;top:-100%;width:200%;z-index:3}
-@keyframes noise {
-to{background-position:0 0}
-10%{background-position:-5% -10%}
-20%{background-position:-15% 5%}
-30%{background-position:7% -25%}
-40%{background-position:20% 25%}
-50%{background-position:-25% 10%}
-60%{background-position:15% 5%}
-70%{background-position:0 15%}
-80%{background-position:25% 35%}
-90%{background-position:-10% 10%}
-}*/
 #dialog-setting{padding:2% 3%;box-sizing:border-box;text-align:center;border-radius:5px;border:2px solid #2CC}
 #dialog-setting::backdrop{background-color:rgba(0,0,0,0.3)}
 #dialog-setting h2{font-size:1.65rem;font-weight:700;border-bottom:1px solid #eee;padding-bottom:1rem;color:#2CC;letter-spacing:.1em}

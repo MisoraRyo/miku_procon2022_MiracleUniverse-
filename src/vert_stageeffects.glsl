@@ -19,11 +19,6 @@ void main(){
   modelPostion.y += 2.5 * speed.y + uTime;
   modelPostion.z += speed.z;+ 3.0*sin( speed.w * 10.0 + uTime);
 
-
-  //modelPostion.x += (10.0+uTime*100.0) ;
-  //modelPostion.y += speed.y * smoothstep(0.25, 1.0, uTime);
-  //modelPostion.z += (10.0+uTime*100.0) * sin(uRadius) ;
-
   vec4 viewPostion = viewMatrix * modelPostion;
   vec4 projectionPosotion = projectionMatrix * viewPostion;
 

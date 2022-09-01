@@ -23,9 +23,6 @@ void main(){
 
   vec3 speed = uSpeed;
   
-  //modelPostion.x += speed.x * uTime + (10.0+uTime*40.0) * cos(uRadius) ;
-  //modelPostion.y += speed.y * uTime ;
-  //modelPostion.z += speed.z * uTime + (10.0+uTime*40.0) * sin(uRadius) ;
   modelPostion.x += (10.0+uTime*100.0) * cos(uRadius) ;
   modelPostion.y += speed.y * smoothstep(0.25, 1.0, uTime);
   modelPostion.z += (10.0+uTime*100.0) * sin(uRadius) ;

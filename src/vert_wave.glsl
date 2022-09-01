@@ -120,7 +120,6 @@ void main(){
 
   gl_PointSize = 8.0 * uPixelRation;//16.0
   
-
   //上の波に対して、ノイズを加える
   vec3 distortion = snoiseVec3( vec3( position.x + uTime * 0.2, position.y + uTime * 0.1, position.z + uTime * 0.1  ) ) * 3.0;
 
