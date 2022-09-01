@@ -26,7 +26,7 @@
 ＊Miracle Universe =：（読み：ミラクル ユニバース）からイコールの先はユーザー自身で作り上げていく（桜を咲かせる）・答えを出す意味を込めて「＝（イコール）」を記号的に付けてたタイトルにしました。
 
 
-Resources: [Three.js](https://threejs.org/), [GSAP](https://greensock.com/), [Mixamo](https://www.mixamo.com/), [TextAlive](https://textalive.jp/)
+Resources: [Three.js](https://threejs.org/), [GSAP](https://greensock.com/), [Mixamo](https://www.mixamo.com/), [TextAlive](https://developer.textalive.jp/)
 
 ## Demo
 
