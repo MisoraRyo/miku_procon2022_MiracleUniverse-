@@ -141,4 +141,4 @@ PCでの閲覧を推奨しています。（ChromeまたはFirefoxを推奨）
 
 何かわからないことなどあれば、TwitterからDMいただけると幸いです。
 
- [初音ミク「マジカルミライ」10th Anniversary プログラミング・コンテスト](https://magicalmirai.com/10th/procon/)
+ コンテストサイト：[初音ミク「マジカルミライ」10th Anniversary プログラミング・コンテスト](https://magicalmirai.com/10th/procon/)
