@@ -996,7 +996,7 @@ let humanObjectClone;
 
 
 //頂点インデックの元データの保持
-let humanindices = new Uint32Array(1764); //570 300 1710  1788 1764
+let humanindices = new Uint32Array(1764); //1764
 //
 function setupModel(data) {
   //const model = data.scene.children[0];
@@ -1161,11 +1161,11 @@ const Sky_material =  new THREE.ShaderMaterial({
   uniforms :{
     u_time: { type: "f", value: 0.0 },
     //
-    u_topColor: {value: new THREE.Color("#0f1462")},//000000 1e2482 171d73 0f1462
-    u_bottomColor: {value: new THREE.Color("#000000")},//232a95
+    u_topColor: {value: new THREE.Color("#0f1462")},//
+    u_bottomColor: {value: new THREE.Color("#000000")},//
     //
-    u_endTopColor: {value: new THREE.Color("#0e64b4")},//141970 0b2d96 39b6ff 0d39a0 123fa0   1b83c6 1081c9 0e78bb 0e62b0
-    u_endBottomColor: {value: new THREE.Color("#04124b")},//67e5ff 3edeff 39b6ff  39b6ff
+    u_endTopColor: {value: new THREE.Color("#0e64b4")},//
+    u_endBottomColor: {value: new THREE.Color("#04124b")},//
     //
     u_exp: { type: "f", value: 1.25 },
     uTexture: {value: startexture},
@@ -1185,7 +1185,7 @@ scene.add( Skydom );
 //　床からパーティクル
 
 const stgaePartclegeometry = new THREE.BufferGeometry();
-const stgaePartcleSpeed = new Float32Array(144*4);//[5]216*648 [4]150*3 [2]54*3 162 [1]24 128*3 160*3
+const stgaePartcleSpeed = new Float32Array(144*4);//[1]24 128*3 160*3
 
 for(let i=0;i<144;i++){
   stgaePartcleSpeed[4*i]= (Math.random()-.5)*10;//
