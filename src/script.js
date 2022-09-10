@@ -57,7 +57,7 @@ window.onload = function(){
 //初期化
 const player = new Player({
   app: { 
-    token: "A9hXgoHcANWKgvws",//Token　★取得したトークンを追加ください！！！
+    token: "Your Token",//Token　★★★★★取得したトークンを追加ください！！！★★★★
     parameters: [
     ]
    },
